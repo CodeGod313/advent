@@ -2,6 +2,14 @@
 
 Toolset that allows you extract events from SIEM (MaxPatrol 10) and compose process trees.
 
+## SETUP
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
 ## EXTRACTOR
 
 Extracts events from MaxPatrol and writes them to file events.json
